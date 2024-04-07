@@ -3,10 +3,10 @@
 
 |  #  |    Project     | Demo |
 | :-: | :------------: | :---: |
-| 01  | 表單標題 | Demo |
-| 02  | 無限捲動 | Demo |
-| 03  | 新年倒數計時 | Demo |
-| 04  | FAQ Slider | Demo |
-| 05  | 音樂播放器 | Demo |
-| 06  | 可排序清單 | Demo |
-| 07  | 擴充字 | Demo |
+| 01  | 表單標題 | [連結] (https://husky-001.github.io/m3-week-03-husky-001/form_validator/index.html) |
+| 02  | 無限捲動 | [連結] (https://husky-001.github.io/m3-week-03-husky-001/Infinite_scroll/index.html) |
+| 03  | 新年倒數計時 | [連結] (https://husky-001.github.io/m3-week-03-husky-001/new_year_countdown/index.html) |
+| 04  | FAQ Slider | [連結] (https://husky-001.github.io/m3-week-03-husky-001/faq_slider/index.html) |
+| 05  | 音樂播放器 | [連結] (https://husky-001.github.io/m3-week-03-husky-001/music_player/index.html) |
+| 06  | 可排序清單 | [連結] (https://husky-001.github.io/m3-week-03-husky-001/sortable_list/index.html) |
+| 07  | 擴充字 | [連結]: (https://husky-001.github.io/m3-week-03-husky-001/speak_number_guessing/index.html) |
