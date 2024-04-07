@@ -57,20 +57,20 @@ function icon() {
 //下一首
 right.addEventListener('click', function () {
   if (songIndex === 1) {
-    img.src = "/m3-week-03-husky-001/music_player/images/inspire.jpg";
-    song.src = "/m3-week-03-husky-001/music_player/music/inspire.mp3";
+    img.src = "./images/inspire.jpg";
+    song.src = "./music/inspire.mp3";
     songIndex++;
     icon();
   }
   else if (songIndex === 2) {
-    img.src = "/m3-week-03-husky-001/music_player/images/smallguitar.jpg";
-    song.src = "/m3-week-03-husky-001/music_player/music/smallguitar.mp3";
+    img.src = "./images/smallguitar.jpg";
+    song.src = "./music/smallguitar.mp3";
     songIndex++;
     icon();
   }
   else if (songIndex === 3) {
-    img.src = "/m3-week-03-husky-001/music_player/images/energy.jpg";
-    song.src = "/m3-week-03-husky-001/music_player/music/energy.mp3";
+    img.src = "./images/energy.jpg";
+    song.src = "./music/energy.mp3";
     songIndex = 1;
     icon();
   }
@@ -80,20 +80,20 @@ right.addEventListener('click', function () {
 //上一首
 left.addEventListener('click', function () {
   if (songIndex === 2) {
-    img.src = "/m3-week-03-husky-001/music_player/images/energy.jpg";
-    song.src = "/m3-week-03-husky-001/music_player/music/energy.mp3";
+    img.src = "./image/energy.jpg";
+    song.src = "./music/energy.mp3";
     songIndex--;
     icon();
   }
   else if (songIndex === 3) {
-    img.src = "/m3-week-03-husky-001/music_player/images/inspire.jpg";
-    song.src = "/m3-week-03-husky-001/music_player/music/inspire.mp3";
+    img.src = "./image/inspire.jpg";
+    song.src = "./music/inspire.mp3";
     songIndex--;
     icon();
   }
   else if (songIndex === 1) {
-    img.src = "/m3-week-03-husky-001/music_player/images/smallguitar.jpg";
-    song.src = "/m3-week-03-husky-001/music_player/music/smallguitar.mp3";
+    img.src = "./image/smallguitar.jpg";
+    song.src = "./music/smallguitar.mp3";
     songIndex = 3;
     icon();
   }
