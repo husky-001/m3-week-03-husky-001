@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-size: 32px;
+    background-color: #504c4c42;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    background-color: green;
+    width: 70%;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    background-color: #706b6b;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content {
+    border-bottom: 2px solid rgb(109, 105, 105);
+}
+
+.title {
+    padding: 10px;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.content {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #635d5d;
+    height: 0px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.container .box.active .content{
+    height: 100px;
+
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.title::before {
+    content: url("/m3-week-03-husky-001/faq_slider/img/arrow.png");
+    transition: 1s;
+    /* transform: rotate(90deg); */
+}
+.box.active .title::before {
+    content: url("/m3-week-03-husky-001/faq_slider/img/arrow.png");
+    display: inline-block; /*有這個屬性元素才能被旋轉*/
+    transform: rotate(90deg); 
+    transition: 1s;
+}
+    
+
