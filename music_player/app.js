@@ -80,19 +80,19 @@ right.addEventListener('click', function () {
 //上一首
 left.addEventListener('click', function () {
   if (songIndex === 2) {
-    img.src = "./image/energy.jpg";
+    img.src = "./images/energy.jpg";
     song.src = "./music/energy.mp3";
     songIndex--;
     icon();
   }
   else if (songIndex === 3) {
-    img.src = "./image/inspire.jpg";
+    img.src = "./images/inspire.jpg";
     song.src = "./music/inspire.mp3";
     songIndex--;
     icon();
   }
   else if (songIndex === 1) {
-    img.src = "./image/smallguitar.jpg";
+    img.src = "./images/smallguitar.jpg";
     song.src = "./music/smallguitar.mp3";
     songIndex = 3;
     icon();
